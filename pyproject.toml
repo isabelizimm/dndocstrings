@@ -1,0 +1,27 @@
+########## Project ##########
+[project]
+name = "dndocstrings"
+description = "Test package for docstring types"
+authors = [
+  {name = "Isabel Zimmerman", email = "isabel.zimmerman@posit.co"},
+]
+version = "0.0.3"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = []
+requires-python = ">=3.8"
+
+########## Build System ##########
+# Reference https://github.com/pydata/xarray/blob/main/pyproject.toml
+[build-system]
+requires = [
+    "setuptools>=59",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
