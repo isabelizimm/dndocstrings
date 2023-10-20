@@ -5,7 +5,6 @@ __version__ = _v("dndocstrings")
 
 del _v
 
-from .classes import TestClass
 from .docstrings import (
     rest,
     epytext,
